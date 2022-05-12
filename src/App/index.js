@@ -8,7 +8,7 @@ import FooterComponent from './components/FooterComponenet';
 
 function App() {
     return (
-        <div className='bg-slate-800 text-slate-100'>
+        <div className='bg-slate-800 text-slate-200'>
             <IntroComponenet />
             <AboutComponent />
             <SkillsComponent />
