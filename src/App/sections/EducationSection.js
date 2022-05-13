@@ -22,7 +22,7 @@ function content() {
 
 function Item(props) {
     return(
-        <p>
+        <p className="mb-2">
             <div>
                 <div className="text-slate-200 font-bold">{props.title}</div>
                 <div>{props.timeframe}</div>

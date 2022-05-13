@@ -31,7 +31,7 @@ function content() {
 
 function Company(props) {
     return(
-        <p>
+        <p className="mb-2">
             <div>
                 <a className="text-slate-200 font-bold" href={props.link}> {props.company} </a>
                 <div>

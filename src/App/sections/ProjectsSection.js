@@ -22,7 +22,7 @@ function ProjectItem(props) {
     const projectTech = props.tech;
     const badges = projectTech.map((tech) => <TechBadge value={tech} /> );
     return (
-        <p>
+        <p className="mb-2">
             <a href={props.link} className='text-blue-500 font-bold text-lg'>{props.title}</a>
             <p className="m-2">{props.description}</p>
             <div>
