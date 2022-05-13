@@ -27,12 +27,12 @@ function List (props) {
     const listItems = props.items;
     const items = listItems.map((item) => <ListItem value={item} />);
     return(
-        <div className="grow">
+        <p className="grow">
             <h3 className="text-lg font-bold uppercase text-slate-200"> {props.title} </h3>
             <ul className="list-none ml-1.5">
                 {items}
             </ul>
-        </div>
+        </p>
     );
 }
 

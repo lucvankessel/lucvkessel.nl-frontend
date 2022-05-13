@@ -22,7 +22,7 @@ function content() {
 
 function Item(props) {
     return(
-        <div>
+        <p>
             <div>
                 <div className="text-slate-200 font-bold">{props.title}</div>
                 <div>{props.timeframe}</div>
@@ -30,7 +30,7 @@ function Item(props) {
             <div className="ml-1.5">
                 {props.institute}
             </div>
-        </div>
+        </p>
     );
 }
 

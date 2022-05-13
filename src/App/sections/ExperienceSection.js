@@ -31,7 +31,7 @@ function content() {
 
 function Company(props) {
     return(
-        <div>
+        <p>
             <div>
                 <a className="text-slate-200 font-bold" href={props.link}> {props.company} </a>
                 <div>
@@ -41,7 +41,7 @@ function Company(props) {
             <div className="ml-1.5">
                 {props.function}
             </div>
-        </div>
+        </p>
     );
 }
 
