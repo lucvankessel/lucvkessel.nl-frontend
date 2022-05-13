@@ -5,9 +5,12 @@ function Content() {
         <div>
             
             <ProjectItem 
-                title='Project1'
-                description='Dit is een project'
-                tech={['PHP', 'SQL', 'Docker']}
+                title='Persoonlijke website'
+                description='   Dit project kijkt u nu naar. Mijn CV in website vorm. Gemaakt met ReactJS en TailwindCSS. 
+                                Gehost in een Docker container op DigitalOcean. 
+                                Dit project word nog uitgebreid met een API backend om alle content via een database te beheren.
+                            '
+                tech={['ReactJS', 'TailwindCSS', 'Docker', 'DigitalOcean']}
                 link='#'
             />
 
@@ -40,7 +43,7 @@ function TechBadge(props) {
 export default function ProjectsSection() {
     return (
         <DetailSectionComponent 
-            title='projects' 
+            title='Projecten' 
             content={<Content />}
         />
     );

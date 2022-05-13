@@ -6,9 +6,23 @@ function content() {
 
             <Company
                 link='#'
-                company='een bedrijf'
-                function='software developer'
-                timeframe='een tijd-een andere tijd'
+                company='Aldi Drachten'
+                function='Part-time Order Picker'
+                timeframe='July 2020 - '
+            />
+
+            <Company 
+                link="#"
+                company="SmartRanking"
+                function="Stagier Software Developer"
+                timeframe="Februari 2020 - Juni 2020"
+            />
+
+            <Company 
+                link="#"
+                company="customwebsite"
+                function="Stagier Front-end programmeur"
+                timeframe="Augustus 2018 - Januari 2019"
             />
 
         </div>
@@ -34,7 +48,7 @@ function Company(props) {
 export default function ExperienceSection() {
     return (
         <DetailSectionComponent 
-            title='Experience' 
+            title='Ervaring' 
             content={content()}
         />
     );

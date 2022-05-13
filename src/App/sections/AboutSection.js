@@ -15,7 +15,7 @@ function Content() {
 export default function AboutSecton() {
     return (
         <DetailSectionComponent 
-            title='About me' 
+            title='Over mij' 
             content={<Content />}
         />
     );

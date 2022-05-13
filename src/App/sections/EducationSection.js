@@ -7,7 +7,13 @@ function content() {
             <Item 
                 title="Software Engineering"
                 institute="Hanzehogeschool Groningen"
-                timeframe="september 2020 - july 2024"
+                timeframe="September 2020 - July 2024"
+            />
+
+            <Item
+                title="Applicatie ontwikkelaar"
+                institute="Alfa-college"
+                timeframe="September 2017 - July 2020"
             />
 
         </div>
@@ -31,7 +37,7 @@ function Item(props) {
 export default function EducationSection() {
     return (
         <DetailSectionComponent 
-            title='Education/Certificates' 
+            title='Educatie' 
             content={content()}
         />
     );
