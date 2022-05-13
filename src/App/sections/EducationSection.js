@@ -23,12 +23,10 @@ function content() {
 function Item(props) {
     return(
         <p className="mb-2">
-            <div>
-                <div className="text-slate-200 font-bold">{props.title}</div>
-                <div>{props.timeframe}</div>
-            </div>
+            <h4 className="text-slate-200 font-bold">{props.title}</h4>
             <div className="ml-1.5">
-                {props.institute}
+                <p>{props.institute}</p>
+                <p>{props.timeframe}</p>
             </div>
         </p>
     );

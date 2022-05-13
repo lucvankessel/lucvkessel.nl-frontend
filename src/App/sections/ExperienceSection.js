@@ -32,14 +32,10 @@ function content() {
 function Company(props) {
     return(
         <p className="mb-2">
-            <div>
-                <a className="text-slate-200 font-bold" href={props.link}> {props.company} </a>
-                <div>
-                    {props.timeframe}
-                </div>
-            </div>
+            <a className="text-slate-200 font-bold" href={props.link}> {props.company} </a>
             <div className="ml-1.5">
-                {props.function}
+                <p>{props.function}</p>
+                <p>{props.timeframe}</p>
             </div>
         </p>
     );
