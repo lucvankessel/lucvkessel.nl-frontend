@@ -17,4 +17,4 @@ This is the frontend application for the resume of https://lucvkessel.nl
 
 ### Prod:
 - docker build -f Dockerfile.prod -t lucvkessel:prod .
-- docker run --restart unless-stopped -p 3001:80 lucvkessel:prod
+- docker run -d --restart unless-stopped -p 3001:80 lucvkessel:prod
