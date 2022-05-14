@@ -34,8 +34,8 @@ function Company(props) {
         <p className="mb-2">
             <a className="text-slate-200 font-bold" href={props.link}> {props.company} </a>
             <div className="ml-1.5">
-                <p>{props.function}</p>
-                <p>{props.timeframe}</p>
+                <div>{props.function}</div>
+                <div>{props.timeframe}</div>
             </div>
         </p>
     );

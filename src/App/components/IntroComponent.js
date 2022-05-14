@@ -2,7 +2,7 @@
 
 export default function IntroComponent() {
     return(
-        <header className=' px-32 py-28 h-screen flex flex-col justify-around text-slate-200 max-w-screen-lg ml-20'>
+        <header className=' p-4 h-screen flex flex-col justify-around text-slate-200 max-w-screen-lg sm:ml-20 sm:px-32 sm:py-28'>
 
             <h1 className='text-4xl'>Hey! Leuk je te zien.</h1>
 

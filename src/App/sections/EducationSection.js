@@ -25,8 +25,8 @@ function Item(props) {
         <p className="mb-2">
             <h4 className="text-slate-200 font-bold">{props.title}</h4>
             <div className="ml-1.5">
-                <p>{props.institute}</p>
-                <p>{props.timeframe}</p>
+                <div>{props.institute}</div>
+                <div>{props.timeframe}</div>
             </div>
         </p>
     );

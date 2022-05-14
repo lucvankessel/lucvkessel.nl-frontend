@@ -24,7 +24,7 @@ function ProjectItem(props) {
     return (
         <p className="mb-2">
             <a href={props.link} className='text-blue-500 font-bold text-lg'>{props.title}</a>
-            <p className="m-2">{props.description}</p>
+            <div className="m-2">{props.description}</div>
             <div>
                 {badges}
             </div>
