@@ -7,7 +7,7 @@ import ProjectsSection from './sections/ProjectsSection';
 import SkillsSection from './sections/SkillsComponent';
 
 const personStructuredData = {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "Person",
     "name": "Luc van Kessel",
     "alternateName": "Lucas van Kessel",
