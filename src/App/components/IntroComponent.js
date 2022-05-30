@@ -7,7 +7,7 @@ export default function IntroComponent() {
             <h1 className='text-4xl'>Hey! Leuk je te zien.</h1>
 
             <h2 className='text-3xl font-light'>
-                Ik ben Luc van Kessel. Full-time student SoftwareEngineering aan de Hanzehogeschool Groningen en Part-time orderpicker bij Aldi Drachten.
+                Ik ben Luc van Kessel. Full-time student SoftwareEngineering aan de Hanzehogeschool Groningen.
             </h2>
 
             <h3 className='text-2xl'>
