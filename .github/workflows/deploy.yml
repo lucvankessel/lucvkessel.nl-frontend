@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: easingthemes/ssh-deploy@main
+      - uses: fifsky/ssh-action@master
         with: 
-          REMOTE_HOST: ${{ secrets.SERVER_IP }} 
-          REMOTE_USER: ${{ secrets.SERVER_USERNAME }} 
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_KEY }}
+          host: ${{ secrets.SERVER_IP }} 
+          user: ${{ secrets.SERVER_USERNAME }} 
+          pass: ${{ secrets.SERVER_PASSWORD }}
           script_stop: true 
           command_timeout: 200m
           script: / 
