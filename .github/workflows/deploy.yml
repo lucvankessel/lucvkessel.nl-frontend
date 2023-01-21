@@ -13,9 +13,7 @@ jobs:
           host: ${{ secrets.SERVER_IP }} 
           user: ${{ secrets.SERVER_USERNAME }} 
           pass: ${{ secrets.SERVER_PASSWORD }}
-          script_stop: true 
-          command_timeout: 200m
-          script: / 
+          command: | 
             cd lucvkessel.nl
             git pull
             docker build -f Dockerfile.prod -t lucvkessel:prod .
