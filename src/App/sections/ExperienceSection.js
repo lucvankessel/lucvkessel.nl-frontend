@@ -6,20 +6,20 @@ function content() {
 
             <Company
                 link='#'
-                company='Aldi Drachten'
+                company='Aldi distributiecentrum Groningen'
                 function='Part-time goederen ontvanger en order picker'
                 timeframe='July 2020 - heden'
             />
 
             <Company 
-                link="#"
+                link="https://smartranking.com/nl/"
                 company="SmartRanking"
                 function="Stagiair Software Developer"
                 timeframe="Februari 2020 - Juni 2020"
             />
 
             <Company 
-                link="#"
+                link="https://www.customwebsite.nl"
                 company="customwebsite"
                 function="Stagiair Front-end programmeur"
                 timeframe="Augustus 2018 - Januari 2019"
