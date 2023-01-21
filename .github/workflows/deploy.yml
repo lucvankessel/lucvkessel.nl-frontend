@@ -1,8 +1,11 @@
-name: CI
-  on: [push]
+name: Deployment
+
+  on: push
+  
   jobs:
     deploy:
-      if: github.ref = 'refs/heads/main' runs-on: Lubuntu-latest]
+      if: github.ref = 'refs/heads/main' 
+      runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v1
       - name: Deploy API uses: appleboy/ssh-action@master
