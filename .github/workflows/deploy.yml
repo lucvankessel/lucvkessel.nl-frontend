@@ -9,15 +9,15 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Deploy API 
-    uses: appleboy/ssh-action@master
-    with: 
-        host: ${{ secrets.SERVER_IP }} 
-        username: ${{ secrets.SERVER_ USERNAME }} 
-        password: ${{ secrets.SERVER_PASSWORD } 
-        script_stop: true 
-        command_timeout: 200m
-        script: / 
-          cd lucvkessel.nl
-          git pull
-          docker build -f Dockerfile.prod -t lucvkessel:prod .
-          docker run -d --restart unless-stopped -p 3001:80 lucvkessel:prod
+      uses: appleboy/ssh-action@master
+      with: 
+          host: ${{ secrets.SERVER_IP }} 
+          username: ${{ secrets.SERVER_ USERNAME }} 
+          password: ${{ secrets.SERVER_PASSWORD } 
+          script_stop: true 
+          command_timeout: 200m
+          script: / 
+            cd lucvkessel.nl
+            git pull
+            docker build -f Dockerfile.prod -t lucvkessel:prod .
+            docker run -d --restart unless-stopped -p 3001:80 lucvkessel:prod
