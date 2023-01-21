@@ -1,15 +1,16 @@
 name: Deployment
 
-  on: push
+on: push
   
-  jobs:
-    deploy:
-      if: github.ref = 'refs/heads/main' 
-      runs-on: ubuntu-latest
-      steps:
+jobs:
+  deploy:
+    if: github.ref = 'refs/heads/main' 
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v1
-      - name: Deploy API uses: appleboy/ssh-action@master
-        with: 
+      - name: Deploy API 
+    uses: appleboy/ssh-action@master
+    with: 
         host: ${{ secrets.SERVER_IP }} 
         username: ${{ secrets.SERVER_ USERNAME }} 
         password: ${{ secrets.SERVER_PASSWORD } 
