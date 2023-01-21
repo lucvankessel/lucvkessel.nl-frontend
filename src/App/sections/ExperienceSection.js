@@ -7,21 +7,21 @@ function content() {
             <Company
                 link='#'
                 company='Aldi Drachten'
-                function='Part-time Order Picker'
-                timeframe='July 2020 - '
+                function='Part-time goederen ontvanger en order picker'
+                timeframe='July 2020 - heden'
             />
 
             <Company 
                 link="#"
                 company="SmartRanking"
-                function="Stagier Software Developer"
+                function="Stagiair Software Developer"
                 timeframe="Februari 2020 - Juni 2020"
             />
 
             <Company 
                 link="#"
                 company="customwebsite"
-                function="Stagier Front-end programmeur"
+                function="Stagiair Front-end programmeur"
                 timeframe="Augustus 2018 - Januari 2019"
             />
 

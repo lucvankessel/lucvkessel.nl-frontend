@@ -6,17 +6,17 @@ function Content() {
 
             <List 
                 title='Talen' 
-                items={['PHP', 'SQL', 'Javascript', 'Typescript', 'Java', 'Python', 'Rust']}
+                items={['GO', 'PHP', 'Python', 'JS/TS', 'Java']}
             />
             
             <List 
                 title='Frameworks'
-                items={['Laravel', 'ReacJS', 'VueJS', 'Node', 'Flask']}
+                items={['Laravel', 'ReactJS', 'VueJS', 'Node']}
             />
 
             <List 
                 title='Tools'
-                items={['Docker', 'Git', 'Agile']}
+                items={['Docker', 'Git', 'Agile/Scrum']}
             />
 
         </div>
