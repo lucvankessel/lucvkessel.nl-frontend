@@ -1,5 +1,6 @@
 # resume frontend
 This is the frontend application for the resume of https://lucvkessel.nl
+This repo has a CI/CD pipeline. made with GitHub actions and Digital Ocean.
 
 ## docker instructions:
 
