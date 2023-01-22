@@ -4,24 +4,17 @@ function content() {
     return (
         <div>
 
-            <Company
-                link='#'
-                company='Aldi distributiecentrum Groningen'
-                function='Part-time goederen ontvanger en order picker'
-                timeframe='July 2020 - heden'
-            />
-
             <Company 
                 link="https://smartranking.com/nl/"
                 company="SmartRanking"
-                function="Stagiair Software Developer"
+                function="Stagiair Software Developer (PHP, Wordpress, JS, Technische SEO)"
                 timeframe="Februari 2020 - Juni 2020"
             />
 
             <Company 
                 link="https://www.customwebsite.nl"
                 company="customwebsite"
-                function="Stagiair Front-end programmeur"
+                function="Stagiair Front-end programmeur (HTML, JS, CSS, PHP)"
                 timeframe="Augustus 2018 - Januari 2019"
             />
 

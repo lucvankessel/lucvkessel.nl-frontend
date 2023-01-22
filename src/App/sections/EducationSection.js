@@ -5,7 +5,7 @@ function content() {
         <div>
 
             <Item 
-                title="Software Engineering"
+                title="Bachelor Software Engineering"
                 institute="Hanzehogeschool Groningen"
                 timeframe="September 2020 - July 2024"
             />
