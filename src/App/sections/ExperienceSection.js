@@ -5,6 +5,13 @@ function content() {
         <div>
 
             <Company 
+                link="https://www.klippa.com"
+                company="Klippa"
+                function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
+                timeframe="Februari 2023 - June 2023"
+            />
+
+            <Company 
                 link="https://smartranking.com/nl/"
                 company="SmartRanking"
                 function="Stagiair Software Developer (PHP, Wordpress, JS, Technische SEO)"
@@ -16,13 +23,6 @@ function content() {
                 company="Customwebsite"
                 function="Stagiair Front-end programmeur (HTML, JS, CSS, PHP)"
                 timeframe="Augustus 2018 - Januari 2019"
-            />
-
-            <Company 
-                link="https://www.klippa.com"
-                company="Klippa"
-                function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
-                timeframe="Februari 2023 - June 2023"
             />
 
         </div>
