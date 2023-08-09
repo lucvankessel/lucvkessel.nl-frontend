@@ -11,7 +11,7 @@ function Content() {
             
             <List 
                 title='Frameworks'
-                items={['Laravel', 'ReactJS', 'VueJS', 'Node']}
+                items={['Gin', 'ent', 'Laravel', 'ReactJS', 'VueJS', 'Node']}
             />
 
             <List 

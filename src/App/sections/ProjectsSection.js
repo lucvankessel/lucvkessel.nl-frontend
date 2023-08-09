@@ -3,15 +3,6 @@ import DetailSectionComponent from "../components/DetailSectionComponent";
 function Content() {
     return (
         <div>
-            
-            <ProjectItem 
-                title='Generieke async endpoints'
-                description='   Aan dit project werk ik tijdens mijn stage bij klippa. Het bestaat uit het uitbreiden van het DocHorizon product met API eindpoints die async gegevens moeten kunnen ontvangen en terug geven.
-                                Dit gebeurt door het maken van queue workers die alle logica op de achterkant uitvoeren en de klant deze kunnen opvragen zodra deze klaar is.
-                                Ook is er de mogelijkheid om wehooks te gebruiken zodat de klant zelf niet hoeft bij te houden waneer haar data klaar is.'
-                tech={['Golang', 'Asynq(redis)', 'Ent', 'Minio', 'webhooks', 'gin/fizz']}
-                link='https://www.klippa.com/en/dochorizon/'
-            />
 
             <ProjectItem 
                 title='Persoonlijke website'

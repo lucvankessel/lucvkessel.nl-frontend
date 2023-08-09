@@ -7,14 +7,14 @@ function content() {
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa"
-                function="Parttime Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
+                function="Parttime Back-end developer (Golang, ent, gin(/fizz), minio, asynq)"
                 timeframe="Juli 2023 - Nu"
             />
 
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa (Stage)"
-                function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
+                function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, asynq)"
                 timeframe="Februari 2023 - June 2023"
             />
 
