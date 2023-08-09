@@ -4,30 +4,30 @@ function content() {
     return (
         <div>
 
-<Company 
+            <Company 
                 link="https://www.klippa.com"
                 company="Klippa"
-                function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
-                timeframe="Februari 2023 - June 2023"
+                function="Parttime Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
+                timeframe="Juli 2023 - Nu"
             />
 
             <Company 
                 link="https://www.klippa.com"
-                company="Klippa"
+                company="Klippa (Stage)"
                 function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
                 timeframe="Februari 2023 - June 2023"
             />
 
             <Company 
                 link="https://smartranking.com/nl/"
-                company="SmartRanking"
+                company="SmartRanking (Stage)"
                 function="Stagiair Software Developer (PHP, Wordpress, JS, Technische SEO)"
                 timeframe="Februari 2020 - Juni 2020"
             />
 
             <Company 
                 link="https://www.customwebsite.nl"
-                company="Customwebsite"
+                company="Customwebsite (Stage)"
                 function="Stagiair Front-end programmeur (HTML, JS, CSS, PHP)"
                 timeframe="Augustus 2018 - Januari 2019"
             />
