@@ -4,6 +4,13 @@ function content() {
     return (
         <div>
 
+<Company 
+                link="https://www.klippa.com"
+                company="Klippa"
+                function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, redis queues)"
+                timeframe="Februari 2023 - June 2023"
+            />
+
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa"
