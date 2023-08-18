@@ -6,7 +6,7 @@ function Content() {
 
             <List 
                 title='Talen' 
-                items={['GO', 'PHP', 'Python', 'JS/TS', 'Java', 'Rust']}
+                items={['Golang', 'PHP', 'Python', 'JS/TS', 'Java', 'Rust']}
             />
             
             <List 
