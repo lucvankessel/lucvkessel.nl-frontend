@@ -3,7 +3,6 @@ import DetailSectionComponent from "../components/DetailSectionComponent";
 function content() {
     return (
         <div>
-
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa"
@@ -14,8 +13,15 @@ function content() {
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa (Stage)"
+                function="Stagiair AI enigineer (Python, YOLO, Lilt, LayoutLM)"
+                timeframe="Februari 2024 - Juni 2024"
+            />
+
+            <Company 
+                link="https://www.klippa.com"
+                company="Klippa (Stage)"
                 function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, asynq)"
-                timeframe="Februari 2023 - June 2023"
+                timeframe="Februari 2023 - Juni 2023"
             />
 
             <Company 

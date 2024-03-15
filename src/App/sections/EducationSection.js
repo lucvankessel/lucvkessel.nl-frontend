@@ -7,13 +7,13 @@ function content() {
             <Item 
                 title="Bachelor Software Engineering"
                 institute="Hanzehogeschool Groningen"
-                timeframe="September 2020 - July 2024"
+                timeframe="September 2020 - Juli 2024"
             />
 
             <Item
                 title="Applicatie ontwikkelaar"
                 institute="Alfa-college"
-                timeframe="September 2017 - July 2020"
+                timeframe="September 2017 - Juli 2020"
             />
 
         </div>
