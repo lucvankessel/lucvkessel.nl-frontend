@@ -4,6 +4,17 @@ function Content() {
     return (
         <div>
 
+            <ProjectItem
+                title='DB Time Machine'
+                description='   Dit project was onderdeel van een hackathon die georganiseerd werd door Klippa.
+                                DB Time Machine is gericht op het automatisch kunnen switchen tussen verschillende database versies en automatisch kunnen migraten van nieuwe migrations.
+                                Dit was bedacht nadat wij tijdens het developen meerdere keren tegen het probleem aanliepen dat we een hele database moesten weg gooien omdat we een andere versie van de codebase wouden testen.
+                                Dit weg gooien en opnieuw aanmaken en vullen met data kostte te veel tijd in onze ogen.
+                            '
+                tech={['Golang']}
+                link='https://github.com/klippa-app/db-time-machine'
+            />
+
             <ProjectItem 
                 title='Persoonlijke website'
                 description='   Dit project kijkt u nu naar. Mijn CV in website vorm. Gemaakt met ReactJS en TailwindCSS. 
