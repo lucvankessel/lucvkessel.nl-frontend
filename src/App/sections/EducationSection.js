@@ -4,6 +4,12 @@ function content() {
     return (
         <div>
 
+            <Item
+                title="Pre-master Computer Science"
+                institute="Rijksuniversiteit Groningen"
+                timeframe="Semptember 2024 - April 2025 (expected)"
+            />
+
             <Item 
                 title="Bachelor Software Engineering"
                 institute="Hanzehogeschool Groningen"
