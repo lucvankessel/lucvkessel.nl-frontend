@@ -6,35 +6,42 @@ function content() {
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa"
-                function="Parttime Back-end developer (Golang, ent, gin(/fizz), minio, asynq)"
-                timeframe="Juli 2023 - Nu"
+                function="Fulltime back-end developer Golang"
+                timeframe="Februari 2025 - nu"
+            />
+
+            <Company 
+                link="https://www.klippa.com"
+                company="Klippa"
+                function="Parttime Back-end developer Golang"
+                timeframe="Juli 2023 - Februari 2025"
             />
 
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa (Stage)"
-                function="Stagiair AI enigineer (Python, YOLO, Lilt, LayoutLM)"
+                function="Stagiair AI enigineer"
                 timeframe="Februari 2024 - Juni 2024"
             />
 
             <Company 
                 link="https://www.klippa.com"
                 company="Klippa (Stage)"
-                function="Stagiair Back-end developer (Golang, ent, gin(/fizz), minio, asynq)"
+                function="Stagiair Back-end developer Golang"
                 timeframe="Februari 2023 - Juni 2023"
             />
 
             <Company 
                 link="https://smartranking.com/nl/"
                 company="SmartRanking (Stage)"
-                function="Stagiair Software Developer (PHP, Wordpress, JS, Technische SEO)"
+                function="Stagiair Software Developer PHP"
                 timeframe="Februari 2020 - Juni 2020"
             />
 
             <Company 
                 link="https://www.customwebsite.nl"
                 company="Customwebsite (Stage)"
-                function="Stagiair Front-end programmeur (HTML, JS, CSS, PHP)"
+                function="Stagiair Front-end programmeur HTML/CSS/JS"
                 timeframe="Augustus 2018 - Januari 2019"
             />
 
