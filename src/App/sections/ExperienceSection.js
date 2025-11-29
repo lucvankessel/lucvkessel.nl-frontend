@@ -4,10 +4,17 @@ function content() {
     return (
         <div>
             <Company 
+                link="https://werkenbijdefensie.nl"
+                company="Defensie"
+                function="Dienjaar soldaat"
+                timeframe="September 2025 - nu"
+            />
+
+            <Company 
                 link="https://www.klippa.com"
                 company="Klippa"
                 function="Fulltime back-end developer Golang"
-                timeframe="Februari 2025 - nu"
+                timeframe="Februari 2025 - Augustus 2025"
             />
 
             <Company 
